@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Designcomplex_Hiddencomponents</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
@@ -12,9 +12,9 @@ The sub-products will be hidden from catalog (visibility) when saving the main p
     <notes>tested and working with 1.7.0.2.&#xD;
 Community will be happy for reviews on other version tests.</notes>
     <authors><author><name>Thomas Klosinsky</name><user>thomasklosinsky</user><email>thomas@designcomplex.de</email></author></authors>
-    <date>2014-09-22</date>
-    <time>20:32:09</time>
-    <contents><target name="magelocal"><dir name="Designcomplex"><dir name="HiddenComponents"><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><file name="Apply.php" hash="1b8fbe869b288ba56feba046ad97057c"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="5123c641ad07b784b052e5bcc399dd10"/></dir><dir name="Model"><file name="Components.php" hash="8c65196b1dc8e76aa583aeb7d119374c"/><file name="Observer.php" hash="d0af3b019a64c331e7858fff7b7298c7"/><dir name="System"><dir name="Config"><dir name="Source"><file name="ComponentVisibility.php" hash="bab4b500fde42e0414e56369b0a98649"/></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="HiddencomponentsController.php" hash="dd0ec1d4985405ecb9c540630e80e7aa"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="e04929738101399bf8310fdbeebb7698"/><file name="config.xml" hash="615729b70d0c313c981cafed3ea1c794"/><file name="system.xml" hash="b347ceeb04b0e78130bcffef127a69e3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Designcomplex_HiddenComponents.xml" hash="e6348eccb98b48558605d568523ebddc"/></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="Designcomplex_HiddenComponents.csv" hash="2bd98a02486e943214c464d91091c740"/></dir></dir></target></contents>
+    <date>2015-03-17</date>
+    <time>12:19:50</time>
+    <contents><target name="magelocal"><dir name="Designcomplex"><dir name="HiddenComponents"><dir name="Block"><dir name="System"><dir name="Config"><dir name="Form"><file name="Apply.php" hash="1b8fbe869b288ba56feba046ad97057c"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="5123c641ad07b784b052e5bcc399dd10"/></dir><dir name="Model"><file name="Components.php" hash="8c65196b1dc8e76aa583aeb7d119374c"/><file name="Observer.php" hash="d0af3b019a64c331e7858fff7b7298c7"/><dir name="System"><dir name="Config"><dir name="Source"><file name="ComponentVisibility.php" hash="bab4b500fde42e0414e56369b0a98649"/></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="HiddencomponentsController.php" hash="dd0ec1d4985405ecb9c540630e80e7aa"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="e04929738101399bf8310fdbeebb7698"/><file name="config.xml" hash="615729b70d0c313c981cafed3ea1c794"/><file name="system.xml" hash="b347ceeb04b0e78130bcffef127a69e3"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Designcomplex_HiddenComponents.xml" hash="e6348eccb98b48558605d568523ebddc"/></dir></target><target name="magelocale"><dir><dir name="de_DE"><file name="Designcomplex_HiddenComponents.csv" hash="2bd98a02486e943214c464d91091c740"/></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="hiddencomponents"><dir name="system"><dir name="config"><file name="apply.phtml" hash="23a108bef63484c675c40794aaed9c3e"/></dir></dir></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

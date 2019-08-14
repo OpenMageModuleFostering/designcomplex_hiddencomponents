@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    function hiddencomponents_apply() {
+        if (confirm('This may take a while for big catalogs. Please, be patient.\nProceed?')) {
+            document.location = '<?php echo $this->getSubmitUrl(); ?>';
+        }
+        return false;
+    }
+</script>
+
+<button onclick="return hiddencomponents_apply();">
+    <span><span><span id="hiddencomponents_apply"><?php echo $this->escapeHtml($this->getButtonLabel()) ?></span></span></span>
+</button>
