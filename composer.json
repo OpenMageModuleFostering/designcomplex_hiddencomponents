@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Designcomplex_Hiddencomponents",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Automatically hide all sub-products of grouped, bundled or configurable product with this extension.",
+    "authors": [
+    {
+        "name": "Thomas Klosinsky",
+        "email": "thomas@designcomplex.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Designcomplex_HiddenComponents>
+            <version>1.0</version>
+        </Designcomplex_HiddenComponents>
+    </modules>
+    <global>
+        <models>
+            <hiddencomponents>
+                <class>Designcomplex_HiddenComponents_Model</class>
+            </hiddencomponents>
+        </models>
+        <blocks>
+            <hiddencomponents>
+                <class>Designcomplex_HiddenComponents_Block</class>
+            </hiddencomponents>
+        </blocks>
+        <helpers>
+            <hiddencomponents>
+                <class>Designcomplex_HiddenComponents_Helper</class>
+            </hiddencomponents>
+        </helpers>
+        <events>
+            <catalog_product_save_after>
+                <observers>
+                    <hiddencomponents>
+                        <class>Designcomplex_HiddenComponents_Model_Observer</class>
+                        <method>productSaveListener</method>
+                    </hiddencomponents>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+    </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Designcomplex_HiddenComponents before="Mage_Adminhtml">Designcomplex_HiddenComponents_Adminhtml</Designcomplex_HiddenComponents>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Designcomplex_HiddenComponents>
+                    <files>
+                        <default>Designcomplex_HiddenComponents.csv</default>
+                    </files>
+                </Designcomplex_HiddenComponents>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
