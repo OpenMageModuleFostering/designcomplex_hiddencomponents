@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Designcomplex_Hiddencomponents",
+    "name": "openmage-module-fostering\/designcomplex_hiddencomponents",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Automatically hide all sub-products of grouped, bundled or configurable product with this extension.",
     "authors": [

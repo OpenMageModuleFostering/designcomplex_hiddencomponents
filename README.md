@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Automatically hide all sub-products of grouped, bundled or configurable product with this extension.
